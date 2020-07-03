@@ -1,9 +1,9 @@
 $('.header-right>a').click(function () {
     $('.hamburger-menu').show();
-    $('.hamburger-menu ul li a').mouseenter(function(){
+    $('.hamburger-menu a').mouseenter(function(){
         $(this).css("color","green");  
     });
-    $('.hamburger-menu ul li a').mouseleave(function(){
+    $('.hamburger-menu a').mouseleave(function(){
         $(this).css("color","");  
     });
 });
