@@ -1,10 +1,10 @@
 $('.header-right>a').click(function () {
     $('.hamburger-menu').show();
-    $('.hamburger-menu>a').mouseenter(function(){
-        $('.hamburger-menu>a').css("color","green");  
+    $('.hamburger-menu ul li a').mouseenter(function(){
+        $(this).css("color","green");  
     });
-    $('.hamburger-menu>a').mouseleave(function(){
-        $('.hamburger-menu>a').css("color","");  
+    $('.hamburger-menu ul li a').mouseleave(function(){
+        $(this).css("color","");  
     });
 });
 $('.hamburger-menu>a').click(function () {
